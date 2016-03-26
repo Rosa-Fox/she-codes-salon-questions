@@ -1,0 +1,10 @@
+<h1>Enter a Question or Topic!</h1>
+<%= form_for @question, html: {role: "form"} do |f| %>
+  <div class="row">
+    <%= f.text_field :question, class: "form-control input-lg" %>
+  </div>
+  <div class="row">
+    <%= f.submit 'Submit!' %>
+  </div>
+<% end %>
+

@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1>Randomly Selected:</h1>
+    <div class="well well-lg">
+      <p class="question"><%= @quest %></p>
+    </div>
+    <%= link_to "Choose another", choose_path, class: "btn btn-lg btn-success" %>
+  </div>
+</div>
+<%= @size %>
